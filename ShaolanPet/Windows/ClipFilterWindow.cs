@@ -27,7 +27,7 @@ namespace ShaolanPet
             this.selector = selector;
             this.save = save;
 
-            Title = "轮播内容 · 薄肌桌宠";
+            Title = "轮播内容 · 邵艾伦桌宠";
             Width = 460;
             Height = 620;
             MinWidth = 400;
@@ -60,7 +60,7 @@ namespace ShaolanPet
 
             TextBlock description = new TextBlock
             {
-                Text = "取消勾选只影响随机轮播；固定播放、手动挑一句不受影响。薄肌只发起联动，不自动接话。",
+                Text = "取消勾选只影响随机轮播；固定播放、手动挑一句不受影响。邵艾伦只发起联动，不自动接话。",
                 TextWrapping = TextWrapping.Wrap,
                 Foreground = new SolidColorBrush(Color.FromRgb(91, 96, 106)),
                 FontSize = 12,

@@ -582,7 +582,7 @@ namespace GoodThingPet
                 SaveSettings();
             });
             linked.Checked = settings.BridgeEnabled; menu.Items.Add(linked);
-            menu.Items.Add(new Forms.ToolStripMenuItem(bridge == null ? "捧哏联动：通道未启动" : "捧哏：" + (bridge.IsPeerRunning("sunpet") ? "太对了 " : "") + (bridge.IsPeerRunning("shaolan") ? "薄肌" : "") + (!bridge.IsPeerRunning("sunpet") && !bridge.IsPeerRunning("shaolan") ? "等待三宠联动版" : "")) { Enabled = false });
+            menu.Items.Add(new Forms.ToolStripMenuItem(bridge == null ? "捧哏联动：通道未启动" : "捧哏：" + (bridge.IsPeerRunning("sunpet") ? "太对了 " : "") + (bridge.IsPeerRunning("shaolan") ? "邵艾伦" : "") + (!bridge.IsPeerRunning("sunpet") && !bridge.IsPeerRunning("shaolan") ? "等待三宠联动版" : "")) { Enabled = false });
             menu.Items.Add(new Forms.ToolStripSeparator());
             menu.Items.Add(Item("退出桌宠", Close));
             return menu;

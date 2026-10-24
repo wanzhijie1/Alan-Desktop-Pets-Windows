@@ -656,7 +656,7 @@ namespace SunPet
             Forms.ToolStripMenuItem linked = Item(settings.BridgeEnabled ? "关闭捧哏联动" : "开启捧哏联动", ToggleBridge);
             linked.Checked = settings.BridgeEnabled;
             menu.Items.Add(linked);
-            string linkStatus = bridge == null ? "捧哏：本机通道不可用" : "捧哏：" + (bridge.IsPeerRunning("shaolan") ? "薄肌 " : "") + (bridge.IsPeerRunning("fengge") ? "峰哥" : "") + (!bridge.IsPeerRunning("shaolan") && !bridge.IsPeerRunning("fengge") ? "等待三宠联动版" : "");
+            string linkStatus = bridge == null ? "捧哏：本机通道不可用" : "捧哏：" + (bridge.IsPeerRunning("shaolan") ? "邵艾伦 " : "") + (bridge.IsPeerRunning("fengge") ? "峰哥" : "") + (!bridge.IsPeerRunning("shaolan") && !bridge.IsPeerRunning("fengge") ? "等待三宠联动版" : "");
             menu.Items.Add(new Forms.ToolStripMenuItem(linkStatus) { Enabled = false });
             menu.Items.Add(new Forms.ToolStripSeparator());
             Forms.ToolStripMenuItem volume = Item("音量", null);

@@ -61,7 +61,7 @@ namespace ShaolanPet
             this.smokeTest = smokeTest;
             this.uiTest = uiTest;
             selector = new PlaybackSelector(catalog.Clips, settings);
-            Title = "薄肌桌宠 · ShaolanPet";
+            Title = "邵艾伦桌宠";
             WindowStyle = WindowStyle.None;
             AllowsTransparency = true;
             Background = Brushes.Transparent;
@@ -94,7 +94,7 @@ namespace ShaolanPet
                 ToolTip = "点击随机播放一句 · 拖动移动 · 右键设置"
             };
             face.RenderTransform = squash;
-            AutomationProperties.SetName(face, "薄肌桌宠 · ShaolanPet，点击随机播放，拖动移动，右键设置");
+            AutomationProperties.SetName(face, "邵艾伦桌宠，点击随机播放，拖动移动，右键设置");
             RenderOptions.SetBitmapScalingMode(face, BitmapScalingMode.HighQuality);
             Grid.SetRow(face, 1);
             root.Children.Add(face);
@@ -460,7 +460,7 @@ namespace ShaolanPet
         private void CreateTray()
         {
             tray = new Forms.NotifyIcon();
-            tray.Text = "薄肌桌宠 · ShaolanPet · 右键设置";
+            tray.Text = "邵艾伦桌宠 · 右键设置";
             try { trayIcon = Drawing.Icon.ExtractAssociatedIcon(System.Reflection.Assembly.GetExecutingAssembly().Location); }
             catch { trayIcon = (Drawing.Icon)Drawing.SystemIcons.Application.Clone(); }
             tray.Icon = trayIcon;
@@ -484,7 +484,7 @@ namespace ShaolanPet
             menu.Font = new Drawing.Font("Microsoft YaHei UI", 9);
             menu.ShowImageMargin = false;
             menu.ShowCheckMargin = true;
-            menu.Items.Add(new Forms.ToolStripMenuItem("邵艾伦 · 薄肌（" + catalog.Clips.Length + " 句）") { Enabled = false });
+            menu.Items.Add(new Forms.ToolStripMenuItem("邵艾伦（" + catalog.Clips.Length + " 句）") { Enabled = false });
             menu.Items.Add(new Forms.ToolStripSeparator());
             Forms.ToolStripMenuItem mode = Item("播放方式", null);
             mode.Name = "PlaybackMode";
@@ -513,7 +513,7 @@ namespace ShaolanPet
             Forms.ToolStripMenuItem linked = Item(settings.BridgeEnabled ? "关闭桌宠联动" : "开启桌宠联动", ToggleBridge);
             linked.Checked = settings.BridgeEnabled;
             menu.Items.Add(linked);
-            string linkStatus = bridge == null ? "联动：本机通道不可用" : bridge.IsPeerRunning("sunpet") ? "联动：太对了在场 · 薄肌只说不接" : "联动：等待太对了（三宠新版）";
+            string linkStatus = bridge == null ? "联动：本机通道不可用" : bridge.IsPeerRunning("sunpet") ? "联动：太对了在场 · 邵艾伦只说不接" : "联动：等待太对了（三宠新版）";
             menu.Items.Add(new Forms.ToolStripMenuItem(linkStatus) { Enabled = false });
             menu.Items.Add(new Forms.ToolStripSeparator());
             Forms.ToolStripMenuItem volume = Item("音量", null);

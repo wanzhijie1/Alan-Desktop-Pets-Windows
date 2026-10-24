@@ -54,7 +54,7 @@ namespace ShaolanPet
                         {
                             e.Handled = true;
                             if (smokeTest || IsBridgeTest) Console.Error.WriteLine(e.Exception);
-                            else MessageBox.Show("桌宠遇到了问题：\n" + e.Exception.Message, "薄肌桌宠 · ShaolanPet", MessageBoxButton.OK, MessageBoxImage.Error);
+                            else MessageBox.Show("桌宠遇到了问题：\n" + e.Exception.Message, "邵艾伦桌宠", MessageBoxButton.OK, MessageBoxImage.Error);
                             app.Shutdown(1);
                         };
                         return app.Run(new PetWindow(catalog, settings, settingsPath, smokeTest, uiTest));
@@ -65,8 +65,8 @@ namespace ShaolanPet
             catch (Exception ex)
             {
                 if (selfTest || smokeTest || IsBridgeTest) Console.Error.WriteLine("FAIL: " + ex);
-                else MessageBox.Show("薄肌桌宠 · ShaolanPet无法启动。请先完整解压程序，再双击 ShaolanPet.exe。\n\n" + ex.Message,
-                    "薄肌桌宠 · ShaolanPet", MessageBoxButton.OK, MessageBoxImage.Error);
+                else MessageBox.Show("邵艾伦桌宠无法启动。请先完整解压程序，再双击 ShaolanPet.exe。\n\n" + ex.Message,
+                    "邵艾伦桌宠", MessageBoxButton.OK, MessageBoxImage.Error);
                 return 1;
             }
         }

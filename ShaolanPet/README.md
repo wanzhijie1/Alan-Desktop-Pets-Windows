@@ -1,10 +1,10 @@
-# 薄肌桌宠 · ShaolanPet · Windows 1.1.0
+# 邵艾伦 · ShaolanPet · Windows
 
-37 句原声，默认启用 8 句，可筛选轮播或固定一句。薄肌只负责发起接话，不自动回应其他桌宠。
+37 句原声，默认启用 8 句。支持随机和固定播放、轮播筛选、字幕、拖动与三宠接话；在筛选窗口点击“全部恢复”可启用全部 37 句。
 
+- [下载 Windows 合集](https://github.com/wanzhijie1/Alan-Desktop-Pets-Windows/releases/latest)
 - [运行与构建说明](Windows/README-Windows.txt)
-- [整包使用说明](../README.md)
-- [原项目](https://github.com/Ganzhe2028/ShaolanPet)
-- [代码许可](LICENSE)、[SunPet 参考许可](LICENSE-SunPet)与[Windows 基础许可](LICENSE-Windows-Base)
+- [合集说明](../README.md)
+- [原项目 ShaolanPet](https://github.com/Ganzhe2028/ShaolanPet)
 
-`Assets/clips.json` 保留原项目的 `defaultOff` 标记，`Assets/Clips/` 保留原始 WAV。图片和音频不属于 MIT 代码许可范围。
+原许可证保留于本目录。

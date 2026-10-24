@@ -1,10 +1,10 @@
-# 好事桌宠 · Windows 1.3.0
+# 峰哥 · 好事桌宠 · Windows
 
-峰哥的 11 句原声，支持透明悬浮、字幕、拖动与三宠接话。
+11 句原声，支持点击说话、字幕、拖动、音量和大小调整。与合集中的太对了、邵艾伦一起运行时支持自动接话。
 
+- [下载 Windows 合集](https://github.com/wanzhijie1/Alan-Desktop-Pets-Windows/releases/latest)
 - [运行与构建说明](Windows/README-Windows.txt)
-- [整包使用说明](../README.md)
-- [原项目](https://github.com/Ganzhe2028/FengGe-Desktop-Pet)与[上游仓库](https://github.com/yuhanfu513-ops/FengGe-Desktop-Pet)
-- [代码许可](LICENSE)与[SunPet 参考许可](LICENSE-SunPet)
+- [合集说明](../README.md)
+- [原项目 FengGe-Desktop-Pet](https://github.com/Ganzhe2028/FengGe-Desktop-Pet)
 
-`Assets/Clips/` 保留原始 WAV。图片和音频不属于 MIT 代码许可范围。
+原许可证保留于本目录。
