@@ -1,0 +1,335 @@
+[
+  {
+    "id": 1,
+    "label": "是我我也崩",
+    "file": "01.wav",
+    "duration": 0.81,
+    "answer": true,
+    "defaultOff": true,
+    "source": "是我我也崩"
+  },
+  {
+    "id": 2,
+    "label": "怎么可能",
+    "file": "02.wav",
+    "duration": 0.727,
+    "answer": true,
+    "defaultOff": true,
+    "source": "怎么可能"
+  },
+  {
+    "id": 3,
+    "label": "没有意义",
+    "file": "03.wav",
+    "duration": 0.996,
+    "answer": true,
+    "defaultOff": true,
+    "source": "没有意义"
+  },
+  {
+    "id": 4,
+    "label": "天赋没什么好聊的",
+    "file": "04.wav",
+    "duration": 1.61,
+    "answer": true,
+    "defaultOff": true,
+    "source": "天赋没什么好聊的"
+  },
+  {
+    "id": 5,
+    "label": "不要找理由",
+    "file": "05.wav",
+    "duration": 1.15,
+    "answer": true,
+    "defaultOff": true,
+    "source": "不要找理由"
+  },
+  {
+    "id": 6,
+    "label": "不要去骗自己",
+    "file": "06.wav",
+    "duration": 1.07,
+    "answer": true,
+    "defaultOff": true,
+    "source": "不要去骗自己"
+  },
+  {
+    "id": 7,
+    "label": "AI 救不了你",
+    "file": "07.wav",
+    "duration": 1.19,
+    "answer": true,
+    "defaultOff": false,
+    "source": "ai救不了你"
+  },
+  {
+    "id": 8,
+    "label": "Let's do it",
+    "file": "08.wav",
+    "duration": 1.07,
+    "answer": true,
+    "defaultOff": true,
+    "source": "Let's do it"
+  },
+  {
+    "id": 9,
+    "label": "bro",
+    "file": "09.wav",
+    "duration": 0.77,
+    "answer": true,
+    "defaultOff": true,
+    "source": "bro"
+  },
+  {
+    "id": 10,
+    "label": "何必呢 对吧",
+    "file": "10.wav",
+    "duration": 1.35,
+    "answer": true,
+    "defaultOff": true,
+    "source": "何必呢 对吧"
+  },
+  {
+    "id": 11,
+    "label": "比你想象的还要难",
+    "file": "11.wav",
+    "duration": 2.063,
+    "answer": true,
+    "defaultOff": true,
+    "source": "比你想象的还要难"
+  },
+  {
+    "id": 12,
+    "label": "总感觉不得劲",
+    "file": "12.wav",
+    "duration": 1.17,
+    "answer": true,
+    "defaultOff": true,
+    "source": "总感觉不得劲"
+  },
+  {
+    "id": 13,
+    "label": "下一个",
+    "file": "13.wav",
+    "duration": 1.25,
+    "answer": true,
+    "defaultOff": true,
+    "source": "下一个"
+  },
+  {
+    "id": 14,
+    "label": "恰恰相反",
+    "file": "14.wav",
+    "duration": 1.301,
+    "answer": true,
+    "defaultOff": true,
+    "source": "恰恰相反"
+  },
+  {
+    "id": 15,
+    "label": "doesn't matter",
+    "file": "15.wav",
+    "duration": 1.07,
+    "answer": true,
+    "defaultOff": true,
+    "source": "doesn't matter"
+  },
+  {
+    "id": 16,
+    "label": "数字不会骗人",
+    "file": "16.wav",
+    "duration": 1.5,
+    "answer": true,
+    "defaultOff": false,
+    "source": "数字不会骗人"
+  },
+  {
+    "id": 17,
+    "label": "我不相信你没有空健身",
+    "file": "17.wav",
+    "duration": 1.87,
+    "answer": true,
+    "defaultOff": false,
+    "source": "我不相信你没有空健身"
+  },
+  {
+    "id": 18,
+    "label": "不要怕",
+    "file": "18.wav",
+    "duration": 0.65,
+    "answer": true,
+    "defaultOff": true,
+    "source": "不要怕"
+  },
+  {
+    "id": 19,
+    "label": "蛋白粉不是科技",
+    "file": "19.wav",
+    "duration": 1.43,
+    "answer": true,
+    "defaultOff": false,
+    "source": "蛋白粉不是科技"
+  },
+  {
+    "id": 20,
+    "label": "当然可以吃",
+    "file": "20.wav",
+    "duration": 1.004,
+    "answer": true,
+    "defaultOff": true,
+    "source": "当然可以吃"
+  },
+  {
+    "id": 21,
+    "label": "不用问我",
+    "file": "21.wav",
+    "duration": 0.762,
+    "answer": true,
+    "defaultOff": true,
+    "source": "不用问我"
+  },
+  {
+    "id": 22,
+    "label": "没有欺骗餐",
+    "file": "22.wav",
+    "duration": 1.319,
+    "answer": true,
+    "defaultOff": true,
+    "source": "没有欺骗餐"
+  },
+  {
+    "id": 23,
+    "label": "不开倒车",
+    "file": "23.wav",
+    "duration": 1.23,
+    "answer": true,
+    "defaultOff": true,
+    "source": "不开倒车"
+  },
+  {
+    "id": 24,
+    "label": "I don't do it",
+    "file": "24.wav",
+    "duration": 1.23,
+    "answer": true,
+    "defaultOff": true,
+    "source": "I don't do it"
+  },
+  {
+    "id": 25,
+    "label": "我们顶峰相见",
+    "file": "25.wav",
+    "duration": 1.37,
+    "answer": true,
+    "defaultOff": true,
+    "source": "我们顶峰相见"
+  },
+  {
+    "id": 26,
+    "label": "过度健身吸引到的是同性",
+    "file": "26.wav",
+    "duration": 2.21,
+    "answer": false,
+    "defaultOff": false,
+    "source": "过度健身吸引到的是同性"
+  },
+  {
+    "id": 27,
+    "label": "你 420 匹谁有耐心看",
+    "file": "27.wav",
+    "duration": 1.71,
+    "answer": false,
+    "defaultOff": true,
+    "source": "你420匹谁有耐心看"
+  },
+  {
+    "id": 28,
+    "label": "你这是版本弃子了",
+    "file": "28.wav",
+    "duration": 1.43,
+    "answer": false,
+    "defaultOff": true,
+    "source": "你这是版本弃子了"
+  },
+  {
+    "id": 29,
+    "label": "把简单的事情复杂化",
+    "file": "29.wav",
+    "duration": 1.97,
+    "answer": false,
+    "defaultOff": true,
+    "source": "把简单的事情复杂化"
+  },
+  {
+    "id": 30,
+    "label": "薄肌的核心逻辑就是要帅",
+    "file": "30.wav",
+    "duration": 2.284,
+    "answer": false,
+    "defaultOff": false,
+    "source": "保积的核心逻辑就是要帅"
+  },
+  {
+    "id": 31,
+    "label": "我已经是版本之子了",
+    "file": "31.wav",
+    "duration": 2.37,
+    "answer": false,
+    "defaultOff": false,
+    "source": "我已经是版本之子了"
+  },
+  {
+    "id": 32,
+    "label": "中国人必须得吃饭",
+    "file": "32.wav",
+    "duration": 1.41,
+    "answer": false,
+    "defaultOff": false,
+    "source": "中国人必须得吃饭"
+  },
+  {
+    "id": 33,
+    "label": "主权感就是一个超能力",
+    "file": "33.wav",
+    "duration": 1.89,
+    "answer": false,
+    "defaultOff": true,
+    "source": "主权感就是一个超能力"
+  },
+  {
+    "id": 34,
+    "label": "刷牙 is everything",
+    "file": "34.wav",
+    "duration": 1.13,
+    "answer": false,
+    "defaultOff": true,
+    "source": "刷牙 is everything"
+  },
+  {
+    "id": 35,
+    "label": "丝滑连招",
+    "file": "35.wav",
+    "duration": 0.99,
+    "answer": false,
+    "defaultOff": true,
+    "source": "丝滑连招"
+  },
+  {
+    "id": 36,
+    "label": "给我好好健身",
+    "file": "36.wav",
+    "duration": 1.07,
+    "answer": false,
+    "defaultOff": true,
+    "source": "给我好好健身"
+  },
+  {
+    "id": 37,
+    "label": "好好上分",
+    "file": "37.wav",
+    "duration": 0.83,
+    "answer": false,
+    "defaultOff": true,
+    "source": "好好上分"
+  }
+]

@@ -1,0 +1,29 @@
+# Local build products and portable release archives
+**/build/
+**/bin/
+**/obj/
+*.exe
+*.dll
+*.pdb
+*.zip
+
+# Runtime logs and editor files
+*.log
+*.err
+*.tmp
+*.bak
+.vs/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Optional process-tree recording outputs (keep source Assets WAVs tracked)
+tools/audio-probe/*.wav
+tools/audio-probe/*.pcm
+tools/audio-probe/*.packets.csv
+tools/audio-probe/*.meta.txt
+tools/audio-probe/*.analysis.json
+tools/audio-probe/*.ref*.json
+tools/audio-probe/*.waveform.png
